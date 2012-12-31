@@ -24,6 +24,8 @@ It may or may not work with other versions. If in doubt, give it a try and see.
 
 Put the AppleScript (or a symlink to the AppleScript) in your `~/Library/Application Support/BBEdit/Scripts` directory. That will place 'Make BBEdit Gist' in your Scripts menu in BBEdit. The AppleScript expects the Python script to be in the same directory, so make sure it is.
 
+Next, make sure you populate the `github_user` and `github_pass` variables in `makeGist.py` with your Github username and password. This thing won't work otherwise (sry).
+
 ### Usage
 
 To use the Python program on its own, run it like this:
