@@ -39,5 +39,6 @@ This will create a private gist; to create a public gist, add the `-p` flag.
 * This thing uses your Github username/password to get an auth token for the Gist API. It's sent over SSL, but there's surely a better way to go about it.
 * Add a UI for notifying the user that something broke or that the process completed successfully.
 * Error handling in the python script could be much nice and non-crappy.
+* When adding the two files to the Scripts directory in BBEdit's Application Support folder, there's now way to suppress the appearance of `makeGist.py`. This is annoying and I'm not sure how to prevent this from happening.
 
 If you use this and want to make it better, feel free to dink around with it and send me a pull request if you do something awesome.
