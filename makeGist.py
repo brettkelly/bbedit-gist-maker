@@ -42,7 +42,7 @@ class Gist(object):
         self.description = description
         if type(files) != list: 
         	files = [files]
-		self.files = files
+	self.files = files
         self.public = public
     
     @property
